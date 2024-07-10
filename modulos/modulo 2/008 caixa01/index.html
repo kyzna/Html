@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixas Box-level</title>
+    <style>
+        @charset "UTF-8";
+
+        @font-face { 
+            font-family:'gotico';
+            src: url('KaushanScript-Regular.otf') format('opentype');
+            font-weight: 600;
+            font-style: normal;
+        }
+
+
+        h1 {
+            background-color: rgb(84, 37, 1);
+            height: 300px;
+            width: 300px;
+            
+            border: 7px solid rgb(2, 133, 177);
+            
+            padding: 10px 10px 10px 10px;
+             /* top right bottom left */
+            
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 40px;
+            margin-left: 10px;
+
+            outline-width: 5px;
+            outline-color: green;
+            outline-style: dashed
+
+
+        }
+
+        a {
+            border-style: solid;
+            border-color: red;
+            border-width: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>paragrafo tambem sao exemplos de box-level, mas os <a href="#">links sao exemplos de caixas inline-level</a>,vamos ver como isso funciona!</p>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens dinamicas</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>A imagem abaixo ira mudar conforme voce muda o tamanho da pagina</p>
+
+    <picture>
+    <source media="(max-width: 750px)" srcset="Imagens/foto-p.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="Imagens/foto-m.png" type="image/png"> 
+    <img src="Imagens/foto-g.png" alt="imagem grande">
+    </picture>
+    <h1>reproduzindo audios</h1>
+    <p>vamos aprender a reproduzir audios em html5!</p>
+    <audio src="midia/tenhoaids.mp3" controls >Tenho aids-hit 2024</audio>
+    <!-- MP3 Wav ogg-->
+
+    <audio>
+        <source src="midia/tenhoaids.mp3" type="audio/mpeg">
+        <source src="midia/tenhoaids.ogg" type="audio/ogg">
+        <source src="midia/tenhoaids.wav" type="audio/wav">
+    </audio>
+<!-- orden sao importantes-->
+<p>infelizmente seu navegador nao consegue reproduzir o audio, <a href="midia/tenhoaids.mp3" download="midia/tenhoaids.com">clique aqui</a> para baixar o arquivo</p>
+     
+    <p>tem tambem os parametros</p>
+    <audio preload="none" src="midia/tenhoaids.mp3" controls></audio>
+    
+
+</body>

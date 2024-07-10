@@ -1,0 +1,136 @@
+
+@font-face {
+    font-family: 'Android' ;
+    src: url('fontes/idroid.otf') ;
+}
+
+
+body {
+   
+    background-color: #E9E6C3;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif; 
+   
+}
+
+header {
+
+    background-image:linear-gradient(to top, #043D1D,#1D7D48, #1D824A);
+    color: white;
+    height: 142px;
+}
+
+.h1-header {
+    text-align: center;
+    font-size: 25px;
+    margin: 0;
+
+    padding: 20px;
+}
+
+.h2-header {
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: justify;
+    margin: 12px;
+  
+}
+a {
+    border: 2px ;
+    padding: 2px;
+    text-decoration: none;
+    color: #5BAE85;
+    border-radius: 5px;
+    margin: 2px;
+    
+}
+
+a:hover {
+    background-color: rgb(48, 96, 48);
+}
+
+main {
+    background-color: white;
+    margin-left: 140px;
+    margin-right: 140px;
+    
+    
+}
+
+.h1-main{
+    margin: 0px;
+    margin-left: 12px;
+    font-family: android;
+    font-size: 23px;
+    color:#06321F; 
+}
+
+.h2-main {
+    color: ;
+    background-image:linear-gradient(to right, #A1EABF, white);
+    margin-left:5px;
+    font-family: android;
+    color: #47715b;
+}
+
+.fundo-video {
+
+   width: 830px;
+   margin-top: 30px;
+   margin-right: 101px;
+   margin-left: 102px;
+   margin-bottom: 30px;
+   
+}
+
+.div-video {
+    background-color: #043D1D;
+}
+
+.pinutil {
+    margin: 0px;
+}
+   
+
+
+.div-de-tudo{
+    margin-top: 0px;
+    background-color: white;
+    margin-left: 140px;
+    margin-right: 140px;   
+    border: 2px solid black;
+    border-radius: 30px;
+    height: 500px;
+ 
+}
+
+.h1-footer {
+background-color: #2FA866;
+margin-top:  0px;
+
+}
+
+.lista1 {
+    display: flex;
+    justify-content: flex-start;
+    padding: ;
+    margin: 20px;
+    background-color:#C5EBD6;
+
+    
+ 
+}
+
+.container-lista2 {
+  
+
+
+}
+
+.p1 {
+    background-color:#C5EBD6;
+}

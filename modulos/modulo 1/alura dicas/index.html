@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css/">
+    <style>
+
+        .seçao_video1{
+            background-color: cadetblue;
+            font-size: 20px;
+        }
+       
+        .vermelho{
+            color: red;
+            font-size: 40px;
+        }
+        .estilo1{
+            color: black;
+            font-size 10px: 
+        }
+    </style>
+
+
+</head>
+    <body>
+    <!-- usando a tag span-->
+    
+    <p>oi, eu sou o <span style="font-size: 24px; color: crimson;">KIRA</span></p>
+
+    <h1  style="color: black; font-size: 18px;">doctype HTML:<h1><p>Informa ao navegador que esse documento é do tipo<span style="  color: blue;"> HTML</span> e sua versão. Quando está escrito apenas html, indica que é a mais recente...</p>
+
+    <p>deve ser por que... <span class="vermelho">eu sou o kira</span>. e assim kira é morto.</p> 
+   
+    </p>    
+    <h1 class="estilo1">tags sem semantica</h1>
+    <p>As tags que não possuem semântica não definem um significado para aquele texto, normalmente são utilizadas apenas para fins de separação e estilização.</p>
+    <li>tags que nao contem semantica
+        <span style="color: purple;"> img</span>: Usado para exibir imagens.
+   <span style="color: purple;"> br </span> : Usado para inserir uma quebra de linha.
+    <span style="color: purple;"> input</span>: Usado para criar campos de entrada em formulários.
+    <span style="color: purple;"> meta</span> :Usado para fornecer informações sobre o documento, como a codificação de caracteres e a descrição da página.
+    <span style="color:purple"> link</span> Usado para vincular recursos externos, como folhas de estilo CSS.
+    </li>
+
+
+    <!--Tags inline ou bloco-->
+    <h1>As tags inline e bloco</h1>
+    <p> as tags inlines, ocupam apenas o espaço de seu conteudo e fica um do lado do outro</p> <p>ja as tags block, ocupam todo o bloco ate o final da pagina e um embaixo do outro</p>
+
+
+    <!--block level da pagina-->
+    <h2>conhecendo a pagina</h2>
+    <li>Header</li>
+    <p>É o cabeçalho da pagina, onde fica a logo e a identidade visual
+    <li> main</li>
+    <p>compreende o conteudo principal do corpo da pagina</p>
+    <li>foorter</li>
+    <p>define o final das página, geralmente colocamos contatos de telefone, emails, redes sociais...</p>
+
+    <li>section</li>
+    <p>dentro do conteudo principal, essa tag compreende uma seçao da pagina</p>
+    <li>article</li>
+    <p>Inclui um artigo da página, muito utilizado em blogs e páginas de criação de conteúdo, também indica o principal conteúdo de texto da página.</p>
+    <li>nav</li>
+    <p> tag nav, e usada para mostrar ao site onde se direcionar</p>
+    <li>div</li>
+    <p>A tag div,assim como as outras tags, também funciona como um container, porém a grande diferença é que a div não tem valor semântico, é apenas uma divisão na página para fins de layout. </p>
+
+    <p > <span style="color: red;"> elementos Block level: aside, nav, div, p, article,h1...h6, section,footer,main, header,hr e video </span></p>
+    <!--tag videos-->
+    <div class="seçao_video1">
+
+    <h1>Videos</h1>
+    <p>a tag videos, é usada para inserir videos no site, ela tem atributos recebendo como valor a largura e pixels, se nao for informada da altura e largura, sera utilizada por padrao do video "
+    </p>
+    <video src="https://youtu.be/j0TUZdBmr6Q?si=tljoHVRzP_3SrCH1" controls></video"></div>
+
+    <!--elementos de um formúlario-->
+    <h1>tags de um formulario</h1>
+    <p>Confira neste artigo:
+        Formulário
+        form
+        input
+        textarea
+        button
+        label </p>
+        <li>form </li>
+        <p> essa tag indica que estamos iniciando um formulario, atributos: method como valor metodo HTTP (get, post) e action, para enviar os dados do formulario</p>
+        <li style="color: red;">input</li>
+        <p>Um campo para que o <span style="color: red;">usuario</span>nossa inserir algum texto, data, número, cor, etc… possui como principais atributos type, que recebe como valor o tipo do input.</p>
+
+        <li>textarea</li>
+        <p>Representa uma caixa de texto, útil quando você quer permitir ao usuário informar um texto extenso em formato livre, como um comentário ou formulário de retorno.</p>
+        <li>button</li>
+        <p>Um botão clicável, possui como principais atributos type, que caso receba submit como valor e esteja dentro de um formulário, irá submeter o formulário.</p>
+        <li>label</li>
+            <P>A tag label é importante para os campos de formulários. Ela especifica qual o <span style="color: red;"> "rótulo"</span> do input (a que se refere o input, como por exemplo envolvê-la em um texto “Nome completo”), e ajuda na experiência do usuário durante a utilização e preenchimento do formulário.</p>
+                <!--atributos de um html-->
+    <h1>atributos de um html</h1>
+    <p>Atributos HTML são palavras especiais usadas dentro da tag de abertura para controlar o comportamento do elemento. Os atributos HTML são um modificador de um tipo de elemento HTML. Com eles podemos identificar melhor um elemento, informar qual arquivo aquela tag deve utilizar, indicar o tipo de um campo de texto, etc…
+        Há dois tipos de atributos no HTML, os globais que são aceitos por todas as tags, como por exemplo: class, id, lang, style e algumas outras que você pode conferir na documentação também existem os específicos que somente algumas tags possuem, como src, disabled, href, label, etc…</p>
+    
+        <li>class="nome da classe"</li>
+        <p>Classes são como classificações de uma tag/elemento, para que no CSS estilizar uma tag específica, ou um conjunto de tags. Também é possível usar no JavaScript para selecionar uma tag específica. >h1 class="titulo"> Mergulhe em Tecnologia!</p>
+        <li>id= nomedold</li>
+        <p>identificarde forma unica um elemento naquela pagina HTML...E utilizado para identificar destino de ancoras, labels e outras funcionalidades neste sentido.(id é de forma unica, e CLASS de forma conjunta)</p>
+        <li>src=link ou diretorio da midia</li>
+        <p>comumente utilizado para indicar para a tag qual arquivo ou midia utilizar. Recebe valores como links ou o nome de um arquivo ja presente no projeto  "/minha imagem.jpeg" >img loading="lazy" src="https://www.alura.com.br/assets/img/alura-share.1636535197.png" ></p>
+        <li>ALT=texto alternativo</li>
+        <p>O atributo alt fornece informações alternativas para uma imagem se um usuário por algum motivo não puder visualizá-la (devido à conexão lenta, um erro no atributo src ou se o usuário usar um leitor de tela).
+        >img loading="lazy" src="https://www.alura.com.br/assets/img/alura-share.163653197.png"  <span style="color: red;">alt=”Logo da alura”></span></p>
+        <li>href=URL</li>
+        <p>para a tag >a>, <span style="color: red;">o atributo href específica a url da pagina</span> para qual o link vai.</p>
+        <li>lang= linguagem</li>
+        <p>o atributo lang especificao idioma do conteudo da tag.</p>
+        <li>target=blank</li>
+        <p>esse atributo abre o link do documento em uma nova janela ou aba.>p>Clique >a href="https://www.alura.com.br/" target="blank">aqui.>a>vvvvvvvvvvvvvvvvvvvvVVVVVVVVVVVVVVVVVVVVVVVV para ir para o site da alura</p>
+        
+</body>
+</html>
