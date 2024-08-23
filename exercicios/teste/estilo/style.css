@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+
+:root {
+
+    --cor1:#D2D2D2; /* #D2D2D2, #747474, #505050, #222222, #080808*/
+    --cor2:#747474;
+    --cor3:#3e3e3e;
+    --cor4:#222222;
+    --cor5:#080808;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+
+header {
+
+        background-color: var(--cor3);
+        text-align: center;
+        font-variant: small-caps;
+
+
+}
+
+header > h1 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 70px;
+    
+}
+
+header > nav {
+    padding-bottom: 30px;
+    
+}
+  header > p {
+    padding-bottom: 20px;
+    font-size: 38px;
+  }
+
+
+
+nav > a {
+    text-decoration: none;
+    color: #080808;
+    background-color: var(--cor1) ;
+    padding: 6px;
+    border-radius: 10px;
+    margin: 10px;
+
+    transition-duration: 1s;
+}
+ 
+a:hover {
+    background-color: grey;
+}
+
+body {
+    background-image: url(fundolimbo.jpg) ;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+main {
+    background-image: linear-gradient(to bottom, #c5bbbb, #747474 );
+    max-width: 600px;
+    margin: auto;
+    border: 1px solid black;
+    padding: 0vh 10vh 40vh 10vh;
+
+
+
+}
+
+main > h2 {
+    background-image: linear-gradient(to right, #222222, #747474);
+    background-color: #3e3e3e;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border-radius: 8px;
+
+
+}
+
+p {
+    font-size: 20px;
+    padding: 20px;
+    text-indent: 50px;
+}
+
+
+.imagem {
+    background-image: url(fundolimbo.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    padding: 10vh;
+    color: white;   
+    border-radius: 10px ;
+
+   
+
+}
