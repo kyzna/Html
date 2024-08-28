@@ -72,9 +72,13 @@ section.imagem > p {
   /*  width: 800px;* se eu usar o width, lembre-se, 100 pixeis de uma tv e grande, mas de um celular e muito, cuidado*/
     display: inline-block;
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.324)                 ;
+    background-color: rgba(0, 0, 0, 0.324) ;
+               ;
 }
 
+p{
+    padding-bottom: 2em     
+}
 
 section {
     font-size:  4.3vw;
@@ -83,12 +87,34 @@ section {
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte2);
+    
 }
 
 
+#img01 {
+
+    background-image: url(imagens/background001.jpg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 
 
 
+}
+
+#img02 {
+
+    background-image: url(imagens/background002.jpg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+
+
+
+}
 
 
 footer {
