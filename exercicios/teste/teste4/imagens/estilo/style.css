@@ -1,4 +1,142 @@
+/*
 @charset "UTF-8";
+
+@font-face {
+    font-family: 'limbo';
+    src: url(../glow-carro-danish-spiik.ttf) format(truetype);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor1: #000000;
+    --cor2: #2A0944;
+    --cor3: #1C1F4A;
+    --cor4: #2F2F2F;
+    --cor5: #4B4B4B;
+    --cor6: #5D6D7E;
+    --font-scale: 1vw; /* Ajusta a escala de fonte automaticamente 
+}
+
+body {
+    background-image: url(fundolimbo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: calc(16px + var(--font-scale)); /* Fonte aumenta/diminui com a largura da tela 
+}
+
+header {
+    background-color: var(--cor1);
+    color: var(--cor5);
+    text-align: center;
+    font-size: 4vw; /* Ajuste responsivo 
+    padding: 10px;
+}
+
+header > h1 {
+    padding-top: 1rem;
+}
+
+header > p {
+    padding-bottom: 1rem;
+}
+
+.h1-limbo {
+    width: 10vw; /* Largura ajusta automaticamente 
+    display: flex;
+    position: absolute;
+    left: 5%;
+    top: 2%;
+}
+
+nav {
+    background-color: #25394e;
+    padding: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav > a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 0.5rem 1rem;
+    font-size: calc(12px + 0.5vw); /* Ajusta a fonte de acordo com a tela 
+}
+
+a:hover {
+    background-color: #3f3d3f;
+    transition-duration: 0.3s;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+main {
+    background-color: #d4cfcf;
+    max-width: 95%;
+    margin: auto;
+    padding: 1rem;
+    font-size: calc(14px + var(--font-scale));
+}
+
+main > .abertura {
+    text-indent: 2rem;
+    padding: 1rem;
+}
+
+main > section {
+    padding: 1rem;
+}
+
+p {
+    padding: 1rem;
+    text-indent: 2rem;
+}
+
+main > h2 {
+    background-color: white;
+    text-indent: 1rem;
+    border: 1px solid;
+    border-radius: 10px;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: calc(16px + var(--font-scale));
+}
+
+.fundo-limbo {
+    padding: 1rem;
+    background-color: #d4cfcf;
+    text-align: center;
+}
+
+.video {
+    background-color: var(--cor4);
+    position: relative;
+    padding-bottom: 59%;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+h3 {
+    background-image: linear-gradient(to right, black, white);
+    text-indent: 2rem;
+    color: #dfd2ea;
+    padding: 0.5rem;
+   
+
+
+
+*/
 
 @font-face {
     font-family:'limbo' ;
@@ -28,8 +166,13 @@ body {
     background-image: url(fundolimbo.jpg) ;
     background-repeat: no-repeat;
     background-size: cover;
+
+   
+
     
 }
+
+
 
 header {
     background-color: var(--cor1);
@@ -41,22 +184,49 @@ header {
 
 header > h1 {
     padding-top: 20px;
+    font-size: 5vw;
+
 
 }
 
 header > p {
-    padding-bottom: 20px;
+    padding-bottom:90px;
+    font-size: 5vw;
+    
+
+}
+
+header > .header {
+
+    position: relative;
+}
+
+.h1-limbo {
+
+    height: 4em;
+    width: 4em;
+
+    display: flex;
+
+    position: absolute;
+
+    left: 10%;
+    top: 2%;
+
+
 }
 
 nav {
     background-color: #25394e;
-    padding: 5px;
+    padding: 19px 0px;
 }
 
 nav > a {
     text-decoration: none;
     color: aliceblue;
-    padding: 10px;
+    padding: 20px;
+    padding-bottom: 10px;
+    font-size: 1.6em;
 }
 
 a:hover {
@@ -68,28 +238,23 @@ a:hover {
 }
 
 main  {
-
-    
-    background-color: #b0afaf;
-    max-width: 900px;
+    background-color: #d4cfcf;
+    max-width: 90%;
     margin: auto;
-    font-size: 2.5vw;
-
+    font-size: 3.3vw;
+    text-align: justify;
 }
+
+
 
 main > .abertura {
     text-indent: 40px;
     padding: 20px;
-    
-
-
 }
 
 
 main > section {
-    padding: 15px;
-   
-    
+    padding: 1em; 
 }
 
 p {
@@ -114,7 +279,7 @@ main  > h2 {
 .fundo-limbo {
     
     padding: 10px;
-    background-color: #b0afaf;
+    background-color: #d4cfcf;
     text-align: center;
     
 }
@@ -134,24 +299,27 @@ div.video > iframe {
     height: 90%;
 }
 
-h3 { background-image: linear-gradient(to right, black, white);
+h3 { background-image: linear-gradient(to right, black 70%, white );
     text-indent: 40px;
-    color: #dfd2ea;
-    padding:5px ;
-    margin-top: 19px;
+    color: #bb7eec;
     font-family: limbo;
+
+ 
+    padding: 0.4em 0.1em;
+    
+
 }
 
 
-#primeiros-projetos {
+/* #primeiros-projetos {
 
     margin-left: 0px;
-    margin-left: -15px; /* Assumindo que o padding da section seja 15px */
+    margin-left: -15px; /* Assumindo que o padding da section seja 15px 
     margin-right: -15px;
-    padding-left: 15px; /* Reaplicar o padding interno, se necessário */
+    padding-left: 15px; /* Reaplicar o padding interno, se necessário 
     padding-right: 15px;
 
-}
+} */
 
 
 footer {
@@ -160,4 +328,31 @@ footer {
     text-align: center;
     
     padding: 5px;
+} 
+
+
+footer > .icones > a  {
+
+   margin-left: 35px;
+
+}
+
+
+footer > .icones > a  .fa-instagram{
+    color: orange;
+}
+
+footer > .icones > a  .fa-facebook{
+    color: rgb(27, 27, 238);
+}
+
+footer > .icones > a  .fa-twitter{
+
+    color: rgb(34, 153, 232);
+}
+
+footer > .icones > a  .fa-whatsapp{
+
+    color: rgb(6, 192, 6);
+
 }
