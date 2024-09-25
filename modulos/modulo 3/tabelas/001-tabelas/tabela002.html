@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Grandes</title>
+    <style>
+
+             
+
+       table {
+        width: 500px;
+        border-collapse: collapse;
+       
+       }
+
+        th, td {
+            border: 1px solid;
+           
+            padding: 10px;
+
+        }
+
+        tr > td {
+          text-align: center;
+          font-weight: bold;
+        }
+
+        thead, tfoot {
+            background-color: rgb(139, 136, 136);
+            color: white;
+            border: 1px solid black;
+        }
+
+        .num {
+            text-align: right;
+            font-weight: 100;
+        }
+
+        caption {
+          font-size: 1.5em;
+          font-weight: bold;
+
+          padding: 10px;
+          background-color: grey;
+        }
+      
+
+    </style>
+</head>
+<body>
+        <h1>Uso de tabelas grandes</h1>
+        <!-- ANATOMIA PARA TABELAS GRANDES
+         TABLE
+          CAPTION
+            THEAD
+                -TR TD TH
+            TBODY
+                -TR TD TH
+            TFOOT
+               -TR TD TH-->
+
+               <table>
+                <caption>Populacao das unidades federativas</caption>
+                <thead>
+                    <tr>
+                        <th>Estado</th>
+                        <th>Populacao</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                       
+                        <tr>
+                          <td>São Paulo</th>
+                          <td class="num">46.649.000</td>
+                        </tr>
+                        <tr>
+                          <td>Minas Gerais</th>
+                          <td class="num">21.719.000</td>
+                        </tr>
+                        <tr>
+                          <td>Rio de Janeiro</th>
+                          <td class="num">17.493.000</td>
+                        </tr>
+                        <tr>
+                          <td>Bahia</th>
+                          <td class="num">14.861.000</td>
+                        </tr>
+                        <tr>
+                          <td>Paraná</th>
+                          <td class="num">11.578.000</td>
+                        </tr>
+                        <tr>
+                          <td>Rio Grande do Sul</th>
+                          <td class="num">11.494.000</td>
+                        </tr>
+                        <tr>
+                          <td>Pernambuco</th>
+                          <td class="num">9.867.000</td>
+                        </tr>
+                        <tr>
+                          <td>Ceará</th>
+                          <td class="num">9.518.000</td>
+                        </tr>
+                        <tr>
+                          <td>Pará</th>
+                          <td class="num">9.105.000</td>
+                        </tr>
+                        <tr>
+                          <td>Santa Catarina</th>
+                          <td class="num">7.638.000</td>
+                        </tr>
+                        <tr>
+                          <td>Goiás</th>
+                          <td class="num">7.483.000</td>
+                        </tr>
+                        <tr>
+                          <td>Maranhão</th>
+                          <td class="num">7.214.000</td>
+                        </tr>
+                        <tr>
+                          <td>Amazonas</th>
+                          <td class="num">4.409.000</td>
+                        </tr>
+                        <tr>
+                          <td>Espírito Santo</th>
+                          <td class="num">4.214.000</td>
+                        </tr>
+                        <tr>
+                          <td>Paraíba</th>
+                          <td class="num">4.079.000</td>
+                        </tr>
+                        <tr>
+                          <td>Rio Grande do Norte</th>
+                          <td class="num">3.622.000</td>
+                        </tr>
+                        <tr>
+                          <td>Mato Grosso</th>
+                          <td class="num">3.777.000</td>
+                        </tr>
+                        <tr>
+                          <td>Alagoas</th>
+                          <td class="num">3.351.000</td>
+                        </tr>
+                        <tr>
+                          <td>Piauí</th>
+                          <td class="num">3.329.000</td>
+                        </tr>
+                        <tr>
+                          <td>Distrito Federal</th>
+                          <td class="num">3.216.000</td>
+                        </tr>
+                        <tr>
+                          <td>Mato Grosso do Sul</th>
+                          <td class="num">2.802.000</td>
+                        </tr>
+                        <tr>
+                          <td>Sergipe</th>
+                          <td class="num">2.347.000</td>
+                        </tr>
+                        <tr>
+                          <td>Rondônia</th>
+                          <td class="num">1.869.000</td>
+                        </tr>
+                        <tr>
+                          <td>Tocantins</th>
+                          <td class="num">1.645.000</td>
+                        </tr>
+                        <tr>
+                          <td>Acre</th>
+                          <td class="num">1.016.000</td>
+                        </tr>
+                        <tr>
+                          <td>Amapá</th>
+                          <td class="num">907.000</td>
+                        </tr>
+                        <tr>
+                          <td>Roraima</th>
+                          <td class="num">674.000</td>
+                        </tr>
+                     
+                <tfoot>
+                        <tr>
+                            <th> Total de Habitantes</th>
+                            <td>80.000.000</td>
+                        </tr>
+                </tfoot>
+               </table>
+</body>
+</html>

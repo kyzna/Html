@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+header {
+    display: flex;
+    
+    justify-content: space-between;
+   
+    padding: 0.65em;
+    background-color:#443131 ;
+
+    font-size: 3vw;
+    font-family: Arial, Helvetica, sans-serif;
+   
+
+}
+
+header > img {
+    width: 100%; /* A imagem se ajustará ao tamanho do container */
+    max-width: 150px; /* Limite de largura máxima para a imagem */
+    height: auto; /* Para manter a proporção da imagem */
+}
+
+
+input {
+    width: 40%;
+    width: ;
+    margin:0px  5px;
+
+    text-decoration: none;
+    padding: 0px 10px;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+
+.icon-fashop {
+    padding-top:0.7em;
+    color: white;
+}
+/*input {
+    margin: auto;
+    width: 90%; /* Ocupa 90% do container 
+    max-width: 90vw; /* Limita a largura máxima a 90% da viewport 
+    min-width: 50px; /* Define um mínimo absoluto menor que o anterior 
+    padding: 0.5em; /* Preenchimento para melhorar a aparência 
+    box-sizing: border-box; /* Inclui padding e borda no cálculo da largura 
+}
+*/
